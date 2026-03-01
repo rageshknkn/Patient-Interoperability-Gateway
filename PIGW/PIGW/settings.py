@@ -95,7 +95,16 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'your_postgres_db_name',
+#         'USER': 'your_postgres_user',
+#         'PASSWORD': 'your_postgres_password',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
@@ -143,4 +152,5 @@ STATIC_URL = 'static/'
 #     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
 #     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
 # }
+
 PIGW_SECRET_KEY = b'At5pLvx-e8ymtCLTiZXgBTh-1m8Xy7eaHh1WPUFq0gc='
